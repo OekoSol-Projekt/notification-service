@@ -1,6 +1,6 @@
 package at.oekosol.notificationservice.service;
 
-import at.oekosol.usermanagementservice.events.UserInvitationEvent;
+import at.oekosol.sharedlibrary.events.UserInvitationEvent;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 

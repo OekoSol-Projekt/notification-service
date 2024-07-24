@@ -93,15 +93,14 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>at.oekosol</groupId>
-			<artifactId>user-management-service</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-mail</artifactId>
 			<version>3.3.2</version>
+		</dependency>
+		<dependency>
+			<groupId>at.oekosol</groupId>
+			<artifactId>shared-library</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 	<dependencyManagement>
