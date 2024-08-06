@@ -18,7 +18,7 @@ target/
 *.iws
 *.iml
 *.ipr
-.env
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -31,3 +31,16 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+# Application-specific
+.env
+.env.*
+.secret
+.secret.*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
