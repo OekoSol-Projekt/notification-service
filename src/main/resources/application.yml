@@ -41,3 +41,12 @@ eureka:
 # Server port configuration
 server:
   port: 7894
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+  endpoint:
+    health:
+      show-details: always
